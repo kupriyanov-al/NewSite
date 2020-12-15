@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+Вход
+{% endblock title %}
+
+
+{% block sidebar %}
+
+{% endblock sidebar %}
+
+
+{% block content %}
+<h2>ВХОД</h2>
+<div>
+    <form class="form-signin" action="" method="post">
+        {% csrf_token %}
+        {{form|crispy}}
+        <button type="submit" class="btn btn-primary btn-block">Log in</button>
+    </form>
+</div>
+
+
+{% endblock content %}
+
+{% block footer %}
+<div class="jumbotron text-center fixed-bottom" style="margin-bottom:0">
+    <p>Footer</p>
+</div>
+  
+{% endblock footer %}
+

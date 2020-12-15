@@ -1,0 +1,23 @@
+html,
+body {
+height: 100%;
+}
+
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 230px;
+    padding: 0px;
+    margin: 0;
+}
+
+.footer {
+ 
+    position:fixed; 
+    bottom:0;
+}
+

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Вход
+{% endblock title %}
+
+
+{% block sidebar %}
+
+{% endblock sidebar %}
+
+
+{% block content %}
+<h2>Вы успешно вышли</h2>
+<p>You are logged out!</p>
+<a href="{% url 'login' %}">Войти снова</a>
+
+
+{% endblock content %}
+
+{% block footer %}
+<div class="jumbotron text-center fixed-bottom" style="margin-bottom:0">
+    <p>Footer</p>
+</div>
+
+{% endblock footer %}
